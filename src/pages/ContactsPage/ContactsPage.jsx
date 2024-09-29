@@ -22,7 +22,7 @@ const ContactsPage = () => {
   return (
     <main >
       <DocumentTitle>Phonebook</DocumentTitle>
-      <h1 >Phonebook</h1>
+      <h1 className={css.title}>Phonebook</h1>
       <ContactForm />
       <SearchBox />
       {isLoading && !error && <Loader />}
